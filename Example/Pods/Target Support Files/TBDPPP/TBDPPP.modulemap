@@ -1,0 +1,6 @@
+framework module TBDPPP {
+  umbrella header "TBDPPP-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TBDPPP_Example' do
+  pod 'TBDPPP', :path => '../'
+
+  target 'TBDPPP_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
