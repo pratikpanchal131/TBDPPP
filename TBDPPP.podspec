@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TBDPPP'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TBDPPP.'
+  s.summary          = 'Testing Pods Pratik'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Creating Swift pod Only for Testing Purpose by pratik panchal
                        DESC
 
   s.homepage         = 'https://github.com/pratikpanchal131/TBDPPP'
@@ -30,11 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TBDPPP/Classes/**/*'
+  # s.source_files = 'TBDPPP/Classes/**/*'
   
   # s.resource_bundles = {
   #   'TBDPPP' => ['TBDPPP/Assets/*.png']
   # }
+
+  s.source_files = 'TBDPPP/Classes/**/*.{swift}'
+#  s.resource_bundles = {
+ #   'TBDPPP' => ['TBDPPP/Classes/**/*.{storyboard,xib,nib,xcassets,json,imageset,png}']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
